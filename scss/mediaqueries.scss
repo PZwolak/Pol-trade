@@ -1,0 +1,1000 @@
+@media(max-width:1600px) {
+    header .headerFlex nav h2 a {
+        font-size: 24px;
+    }
+
+    header .headerFlex .logoContainer .logo {
+        width: 80%;
+    }
+
+    header .headerFlex a {
+        font-size: 35px;
+    }
+
+    header h1 {
+        top: 55%;
+        font-size: 50px;
+    }
+
+    section.first div div h2 {
+        padding-top: 10px;
+        font-size: 35px;
+    }
+
+    section.second {
+        height: 65vh;
+    }
+
+    section.second h1 {
+        font-size: 30px;
+    }
+
+    section.third div div {
+        width: 740px;
+    }
+
+    section.third div div h3 {
+        font-size: 55px;
+    }
+
+    section.first div div h1 {
+        font-size: 50px;
+        width: 40%;
+        transform: translate(70%, 0%);
+        padding: 20px 0px;
+    }
+
+    section.first div div h2 {
+        font-size: 30px;
+    }
+
+    section.third div div i {
+        font-size: 80px;
+    }
+
+    section.third div {
+        top: 15%;
+    }
+
+    section.third div div button {
+        width: 320px;
+        height: 120px;
+        padding: 10px 20px;
+        font-size: 26px;
+    }
+
+    section.forth h3 {
+        font-size: 26px;
+    }
+
+    body>section.kontakt>h1 {
+        font-size: 45px;
+    }
+
+    section.kontakt div.flexContainer div.contactForm form input {
+        height: 45px;
+        font-size: 20px;
+    }
+
+    section.kontakt div.flexContainer div.contactForm form textarea {
+        height: 130px;
+        font-size: 20px;
+    }
+
+    section.kontakt div.flexContainer div.contactForm form button {
+        font-size: 20px;
+        height: 45px;
+    }
+
+    body>section.kontakt>div.flexContainer>div.maps>iframe {
+        height: 430px;
+    }
+
+    section.kontakt div.contactInformation h2 {
+        font-size: 22px;
+    }
+    section.kontakt {
+    div.descriptionText{
+        h3{
+            font-size:24px;
+            margin-bottom:60px;
+        }
+    
+        h4{
+            font-size:24px;
+            margin-bottom:60px;
+        }
+    }
+}
+section.offer{
+    display: block;
+    width:100%;
+    height: auto;
+    div{
+        // top:20%;
+        // left:30%;
+        // right:10%;
+
+        div{
+            display: block;
+            width:800px;
+            height:500px;
+            margin:auto auto;
+            text-align: center;
+            align-items: center;
+        
+        h3{
+            color:white;
+            font-size: 70px;
+            text-shadow: 2px 2px 50px black;
+        }
+        i{
+            font-size: 120px;
+            padding: 50px 35px;
+            color:white;
+            text-shadow: 2px 2px 50px black;
+        }
+        button{
+            margin:0px 25px;
+            display: block;
+            float: left;
+            width:350px;
+            height: 130px;
+            padding: 20px 40px;
+            cursor: pointer;
+            font-size:30px;
+            background-color: white;
+            // border:10px white solid;
+            border:none;
+            transition: 0.3s;
+            &:hover{
+                // border: 10px#E41106 solid;
+                background-color: #DEDEDE;
+                text-shadow: 10px 10px 50px white;
+                transform: translateY(-10px)
+            }
+        }
+    }
+    }
+}
+section.kontakt {
+    div.descriptionText{
+        h3{
+            font-size:20px;
+            margin-bottom:40px;
+        }
+    
+        h4{
+            font-size:20px;
+            margin-bottom:40px;
+        }
+    }
+    section.offer{
+        div{
+            div{
+                width:400px;
+                height:250px;
+            h3{
+                font-size: 35px;
+            }
+            i{
+                font-size: 40px;
+                padding: 20px 15px;
+            }
+            button{
+                line-height: 20px;
+                margin:0px 10px;
+                width:180px;
+                height: 70px;
+                padding: 10px 20px;
+                font-size:18px;
+            }
+        }
+        }
+    }
+}
+
+}
+
+@media(max-width:1366px) {
+    header .dots {
+        transform: scale(0.6) translateX(-87%);
+    }
+
+    header .headerFlex nav h2 a {
+        font-size: 20px;
+    }
+
+    header .headerFlex nav h2 i {
+        font-size: 36px;
+    }
+
+    header h1 {
+        font-size: 40px;
+        padding: 20px 10px;
+        border: 6px solid white;
+    }
+
+    header .headerFlex .logoContainer {
+        width: 30%;
+    }
+
+    header .headerFlex nav {
+        width: 70%;
+    }
+
+    header .headerFlex a {
+        font-size: 26px;
+
+    }
+
+    header .headerFlex li .submenu li a {
+        font-size: 18px;
+    }
+
+    header .headerFlex a {
+        border-bottom: transparent solid 5px;
+        border-top: transparent solid 5px;
+    }
+
+    header .headerFlex a:hover {
+        border-bottom: #E41106 solid 5px;
+        border-top: transparent solid 5px;
+    }
+
+    section.first {
+        height: 20vh;
+    }
+
+    section.first div div h1 {
+        font-size: 50px;
+        width: 30%;
+        transform: translateX(110%);
+    }
+
+    section.first div div h2 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    section.second div.container div img {
+        width: 200px;
+    }
+
+    section.second h1 {
+        font-size: 30px;
+    }
+
+    section.third div div {
+        width: 460px;
+    }
+
+    section.third div div button {
+        width: 250px;
+        font-size: 26px;
+    }
+
+    section.forth h3 {
+        font-size: 22px;
+    }
+
+    header .headerFlex ul {
+        padding-left: 250px;
+    }
+
+    section.third div div h3 {
+        font-size: 35px;
+    }
+
+    section.third div div i {
+        font-size: 60px;
+    }
+
+    section.third div div button {
+        font-size: 18px;
+        width: 180px;
+        height: 80px;
+    }
+
+    body>section.kontakt>h1 {
+        font-size: 35px;
+        height: 7vh;
+    }
+
+    section.kontakt div.flexContainer div.contactForm form input {
+        margin-bottom: 15px;
+    }
+
+    section.kontakt div.flexContainer div.contactForm form textarea {
+        margin-bottom: 15px;
+    }
+
+    body>section.kontakt>div.flexContainer>div.maps>iframe {
+        height: 370px;
+    }
+    section.kontakt {
+        div.descriptionText{
+            h3{
+                font-size:20px;
+                margin-bottom:40px;
+            }
+        
+            h4{
+                font-size:20px;
+                margin-bottom:40px;
+            }
+        }
+        section.offer{
+            div{
+                div{
+                    width:400px;
+                    height:250px;
+                h3{
+                    font-size: 35px;
+                }
+                i{
+                    font-size: 40px;
+                    padding: 20px 15px;
+                }
+                button{
+                    line-height: 20px;
+                    margin:0px 10px;
+                    width:180px;
+                    height: 70px;
+                    padding: 10px 20px;
+                    font-size:18px;
+                }
+            }
+            }
+        }
+    }
+
+}
+
+@media(max-width:1248px) {
+    header .headerFlex nav div {
+        padding: 10px 30px 0px 0;
+    }
+
+    header .headerFlex nav h2:nth-child(1) {
+        font-size: 18px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    section.second div.container div h1 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1000px) {
+    header .headerFlex .logoContainer {
+        display: none;
+    }
+
+    header .headerFlex nav {
+        display: none;
+    }
+
+    header .headerFlex .mobileMenu {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        height: 100%;
+        overflow:hidden;
+        &.hiddenOn{
+            overflow:visible;
+        }
+    }
+
+    header .headerFlex .mobileMenu .topMenu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: 50%;
+
+        div {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            width: 50%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+
+            h2 {
+                font-size: 24px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                color: white;
+            }
+
+            i {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                color: #E41106;
+                padding-right: 15px;
+                font-size: 40px;
+            }
+
+            a {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                font-size: 24px;
+            }
+        }
+    }
+
+    header .headerFlex .mobileMenu .bottomMenu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 0, 0, 0.4);
+
+        div.logo2 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            width: 50%;
+            background: url("../img/pol-trade.png");
+            background-size: 70%;
+
+            background-repeat: no-repeat;
+            background-position: left;
+            margin-left: 40px;
+        }
+
+        div.hamburger {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: end;
+                -ms-flex-pack: end;
+                    justify-content: flex-end;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            width: 50%;
+
+            i {
+                font-size: 60px;
+                padding-right: 40px;
+                color: white;
+                cursor: pointer;
+                -webkit-transition: 0.1s;
+                -o-transition: 0.1s;
+                transition: 0.1s;
+            }
+
+            i.active {
+                -webkit-transform: rotate(90deg) translate(20px, 20px);
+                    -ms-transform: rotate(90deg) translate(20px, 20px);
+                        transform: rotate(90deg) translate(20px, 20px);
+                -webkit-transition: 0.1s;
+                -o-transition: 0.1s;
+                transition: 0.1s;
+            }
+        }
+    }
+
+    div.menuList {
+        position: absolute;
+        width: 100%;
+        height: 45vh;
+        top: 20vh;
+        background-color: #454648;
+        transform: translateX(100%);
+        transition: 0.3s;
+
+        ul {
+            margin-top:10px;
+            width: 100%;
+            height: 100%;
+            display: block;
+            flex-direction: column;
+            padding: 0;
+
+            li {
+                color: white;
+                font-size: 40px;
+                padding-bottom:10px;
+                cursor: pointer;
+
+                ul {
+                    li {
+                        font-size: 30px;
+                        color: #DEDEDE;
+                        padding-bottom:5px;
+                    }
+                }
+            }
+        }
+    }
+
+    div.menuList.active {
+        transform: translateX(0%);
+        transition: 0.3s;
+    }
+
+    section.third div {
+        left: 5%;
+        right: 5%;
+    }
+
+    div.menuList ul li ul li a {
+        font-size: 18px;
+    }
+
+    section.first div div h1 {
+        font-size: 30px;
+    }
+
+    section.first div div.active {
+        transform: translate(0%, -40%);
+    }
+
+    section.forth h3 {
+        font-size: 16px;
+    }
+
+    section.third div div h3 {
+        font-size: 30px;
+    }
+
+    section.third div div i {
+        font-size: 40px;
+    }
+
+    section.third div div i {
+        padding: 30px 20px;
+    }
+
+    section.third div div button {
+        font-size: 16px;
+        width: 160px;
+        height: 70px;
+        padding: 5px 10px;
+        margin: 0 10px;
+    }
+
+    section.third div div {
+        width: 360px;
+        height: 40vh;
+    }
+
+    section.kontakt div.flexContainer div.contactForm{
+        width:100%;
+        padding-right:40px; 
+    }
+    section.kontakt div.flexContainer div.maps{
+        width: 100%;
+        padding-left: 40px;
+    }
+    section.kontakt {
+        div.descriptionText{
+            h3{
+                font-size:18px;
+                margin-bottom:30px;
+            }
+        
+            h4{
+                font-size:18px;
+                margin-bottom:30px;
+            }
+        }
+        section.offer{
+            div{
+                div{
+                    width:400px;
+                    height:250px;
+                h3{
+                    font-size: 26px;
+                }
+                i{
+                    font-size: 34px;
+                    padding: 20px 15px;
+                }
+                button{
+                    line-height: 20px;
+                    margin:0px 10px;
+                    width:180px;
+                    height: 70px;
+                    padding: 10px 20px;
+                    font-size:18px;
+                }
+            }
+            }
+        }
+    }
+    body > section.kontakt > h1.contact.wow.fadeInLeft{
+        height:100px;
+    }
+    body > section.kontakt > h1.contact.wow.bounceIn{
+        height:150px;
+    }
+}
+
+@media(max-width:769px) {
+    header .headerFlex .mobileMenu {
+        .topMenu {
+            flex-direction: column;
+            display: flex;
+            width: 100%;
+            height: 50%;
+
+            div {
+                width: 100%;
+            }
+        }
+    }
+
+    header .headerFlex .mobileMenu .topMenu div i {
+        font-size: 30px;
+    }
+
+    div.menuList ul li {
+        font-size: 35px;
+
+        ul {
+            li {
+                font-size: 25px;
+                color: #DEDEDE
+            }
+        }
+    }
+
+    div.menuList {
+        height: 50vh;
+    }
+
+    section.first div div h1 {
+        width: 60%;
+        transform: translateX(35%);
+        font-size: 40px;
+    }
+
+    section.first div div.active h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    section.first div div.active {
+        transform: translate(0%, -130px);
+    }
+
+    section.second {
+        padding-top: 60px;
+        height: 80vh;
+    }
+
+    section.second div.container {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    section.second div.container div:nth-child(n+0) {
+        flex-direction: row;
+        width: 80%;
+        margin: 0 0 20px 0;
+        transform: translate(-200%, 0);
+    }
+
+    section.second div.container div.active:nth-child(n+0) {
+        flex-direction: row;
+        width: 80%;
+        margin: 0 0 20px 0;
+    }
+
+    section.second div.container div:nth-child(n+0) img:nth-child(n+0) {
+        transform: translate(-300%, 0%);
+        width: 140px;
+    }
+
+    section.second div.container div.active:nth-child(n+0) img.active {
+        transform: translate(-50%, 0%);
+        width: 140px;
+    }
+
+    section.second div.container div:nth-child(n+0) h1 {
+        transform: translate(1000%, 0%);
+        font-size: 25px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    section.second div.container div.active:nth-child(n+0) h1.active {
+        transform: translate(-20%, 0%);
+        margin: 0 auto;
+    }
+
+    section.third div {
+        left: 5%;
+        right: 5%;
+    }
+
+    section.third div div {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section.third div div h3 {
+        font-size: 40px;
+    }
+
+    section.third div div i {
+        font-size: 50px;
+    }
+
+    section.third div div button {
+        margin: 10px auto;
+        font-size: 20px;
+        width: 180px;
+    }
+
+    section.forth {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section.forth h3 {
+        margin: 0 10px;
+        line-height: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    section.kontakt div.flexContainer{
+        flex-direction: column;
+    }
+    section.kontakt div.flexContainer div.contactForm{
+        padding-left:40px;
+    }
+    section.kontakt div.flexContainer div.contactForm form input{
+        width:100%;
+    }
+    section.kontakt div.flexContainer div.contactForm form textarea{
+        width:100%;
+    }
+    section.kontakt div.flexContainer div.contactForm form button{
+        width:100%;
+    }
+    section.kontakt div.flexContainer div.maps{
+        padding-right: 40px;
+    }
+    body > section.kontakt > div.flexContainer > div.maps > iframe{
+        width:100%;
+    }
+    section.kontakt{
+        height: auto;
+    }
+}
+
+@media(max-width:500px) {
+    header .headerFlex .mobileMenu .bottomMenu div.logo2 {
+        width: 65%;
+        margin-left: 20px;
+    }
+
+    header .headerFlex .mobileMenu .bottomMenu div.hamburger {
+        width: 35%;
+    }
+
+    header .headerFlex .mobileMenu .bottomMenu div.hamburger i {
+        font-size: 50px;
+        padding-right: 20px;
+
+    }
+
+    header .headerFlex .mobileMenu .topMenu div {
+        justify-content: left;
+        padding-left: 20px;
+    }
+
+    header .headerFlex .mobileMenu .topMenu div a {
+        font-size: 18px;
+    }
+
+    div.menuList ul li {
+        font-size: 30px;
+        line-height: 10px;
+
+        ul {
+            li {
+                line-height: 8px;
+                font-size: 20px;
+                color: #DEDEDE
+            }
+        }
+    }
+
+    div.menuList {
+        height: 40vh;
+    }
+
+    section.first div div h1 {
+        width: 100%;
+        transform: translate(0%, 0%);
+    }
+
+    section.third {
+        height: 100vh;
+    }
+
+    section.third div {
+        left: 0;
+        top: 20%;
+        right: 0;
+    }
+
+    section.third div div {
+
+        width: 300px;
+        left: 10px;
+        right: 10px;
+        height: 45vh;
+    }
+
+    section.third div {
+        top: 28%;
+    }
+
+    section.third div div h3 {
+        line-height: 50px;
+    }
+
+    section.third div div i {
+        padding: 12px 8px;
+    }
+
+    section.third div div button {
+        height: 60px;
+    }
+
+    section.forth h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    header h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    section.first {
+        height: 30vh;
+    }
+
+    section.first div div h2 {
+        line-height: 23px;
+    }
+
+    section.first div div.active h2.active {
+        line-height: 23px;
+    }
+
+    section.second div.container div.active:nth-child(n+0) img.active {
+        width: 100px;
+    }
+
+    section.second div.container div.active:nth-child(n+0) h1.active {
+        font-size: 20px;
+        transform: translate(-30%, 0%);
+    }
+
+    header .headerFlex a {
+        font-size: 20px;
+    }
+
+    div.menuList {
+        height: 30vh;
+    }
+
+    div.menuList ul li ul li a {
+        font-size: 12px;
+    }
+
+    section.first div div h1 {
+        width: 70%;
+        transform: translateX(20%);
+    }
+
+    section.first div div h1 {
+        font-size: 28px;
+    }
+
+    section.first div div.active {
+        transform: translateY(-32%);
+    }
+
+    section.third div div h3 {
+        font-size: 30px;
+    }
+
+    section.third div div i {
+        font-size: 40px;
+    }
+
+    section.third div div button {
+        font-size: 16px;
+    }
+    body > section.kontakt > h1{
+        font-size: 30px;
+        margin-bottom:10px;
+    }
+    section.kontakt div.contactInformation h2{
+        font-size: 18px;
+    }
+    section.kontakt div.flexContainer div.contactForm{
+        padding-left:20px;
+        padding-right: 20px;
+    }
+    section.kontakt div.flexContainer div.maps{
+        padding-right: 20px;
+        padding-left:20px;
+    }
+    section.kontakt {
+        div.descriptionText{
+            h3{
+                font-size:16px;
+                margin-bottom:30px;
+            }
+        
+            h4{
+                font-size:16px;
+                margin-bottom:30px;
+            }
+        }
+        section.offer{
+            div{
+                div{
+                    width:300px;
+                    height:300px;
+                h3{
+                    font-size: 26px;
+                }
+                i{
+                    font-size: 30px;
+                    padding: 20px 15px;
+                }
+                button{
+                    transform: translateX(45%);
+                    line-height: 16px;
+                    margin:10px auto;
+                    width:160px;
+                    height: 50px;
+                    padding: 8px 16px;
+                    font-size:14px;
+                }
+            }
+            }
+        }
+    }
+}

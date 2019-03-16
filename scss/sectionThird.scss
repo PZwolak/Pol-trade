@@ -1,0 +1,88 @@
+section.third{
+    position: relative;
+    display: block;
+    width:100%;
+    height: 70vh;
+    background: url("../img/truck4.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    div{
+        position: absolute;
+        top:20%;
+        left:30%;
+        right:10%;
+
+        div{
+            display: block;
+            width:800px;
+            height:auto;
+            margin:auto auto;
+            text-align: center;
+            align-items: center;
+        
+        h3{
+            color:white;
+            font-size: 70px;
+            text-shadow: 2px 2px 50px black;
+        }
+        i{
+            font-size: 120px;
+            padding: 50px 35px;
+            color:white;
+            text-shadow: 2px 2px 50px black;
+        }
+        button{
+            margin:0px 25px;
+            display: block;
+            float: left;
+            width:350px;
+            height: 130px;
+            padding: 20px 40px;
+            cursor: pointer;
+            font-size:30px;
+            background-color: white;
+            // border:10px white solid;
+            border:none;
+            transition: 0.3s;
+            a{
+                color:black;
+            }
+            &:hover{
+                // border: 10px#E41106 solid;
+                background-color: #DEDEDE;
+                text-shadow: 10px 10px 50px white;
+                transform: translateY(-10px)
+            }
+        }
+    }
+    }
+}
+
+section.forth{
+    display: block;
+    width:100%;
+    height: 15vh;
+    background-color: #454648;
+    h3{
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 15vh;
+        a{
+            color:white;
+            transition:0.3s;
+            &:hover{
+                color:#E41106;
+            transition:0.3s;
+            }
+        }
+    }
+    span{
+        padding: 0 20px;
+    }
+
+    }
+

@@ -1,0 +1,250 @@
+header .headerFlex .logoContainer {
+    background-color: #454648 !important;
+    background: none;
+}
+
+header .headerFlex .mobileMenu .topMenu div {
+    background-color: #454648 !important;
+}
+
+header .headerFlex .mobileMenu .bottomMenu {
+    background-color: #454648 !important;
+}
+
+header .headerFlex nav {
+    background-color: #454648 !important;
+}
+
+header .headerFlex li:hover .submenu {
+    background-color: #454648 !important;
+}
+
+header {
+    height: 20vh;
+    overflow: visible;
+}
+
+section.forth {
+    display: block;
+    width: 100%;
+    height: 15vh;
+    background-color: #454648;
+
+    h3 {
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 15vh;
+    }
+
+    span {
+        padding: 0 20px;
+    }
+}
+
+section.kontakt {
+    display: block;
+    padding: 20px 0px 0px 0px;
+    background: url('../img/truckcontact.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    min-height: 90vh;
+
+    h1 {
+    height:10vh;
+    margin-bottom:30px;
+     color:white;
+     font-size: 60px;
+     text-align: center
+    }
+
+    div.flexContainer {
+        display: flex;
+        div.contactForm {
+            display: flex;
+            width: 50%;
+            align-items: stretch;
+            padding-right: 80px;
+
+            form {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                width: 100%;
+
+                input {
+                    width: 70%;
+                    height: 60px;
+                    margin-bottom: 30px;
+                    font-size: 25px;
+                    color: #454648;
+                    padding-left: 30px;
+                }
+
+                textarea {
+                    width: 70%;
+                    height: 150px;
+                    margin-bottom: 30px;
+                    padding: 10px 10px 5px 30px;
+                    font-size: 25px;
+                    color: #454648;
+                }
+
+                button {
+                    width: 70%;
+                    height: 60px;
+                    margin-bottom: 30px;
+                    font-size: 25px;
+                    color: white;
+                    background-color: #454648;
+                    border: 5px solid white;
+                    transition: 0.3s;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #454648;
+                        background-color: white;
+                        transition: 0.3s;
+                    }
+                }
+
+            }
+        }
+
+        div.maps {
+            display: flex;
+            width: 50%;
+            padding-left: 80px;
+            align-items: stretch;
+            iframe{
+                font-size: 30px;
+                width: 70%;
+                height: 510px;
+            }
+        }
+    }
+    div.contactInformation{
+        padding:30px;
+    h2{
+        color:white;
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+
+div.descriptionText{
+    margin:0 auto;
+    width:70%;
+    max-width: 1366px;
+    h3{
+        color:white;
+        font-size:30px;
+        text-align:justify;
+        margin-bottom:80px;
+    }
+
+    h4{
+        color:white;
+        font-size:30px;
+        text-align:justify;
+        margin-bottom:80px;
+    }
+    span{
+        text-transform: uppercase;
+    }
+    a{
+        color:white;
+        transition:0.3s;
+        &:hover{
+            color:#E41106;
+        transition:0.3s;
+        }
+    }
+
+}
+section.offer{
+    display: block;
+    width:100%;
+    height: auto;
+    div{
+        // top:20%;
+        // left:30%;
+        // right:10%;
+
+        div{
+            display: block;
+            width:800px;
+            height:500px;
+            margin:auto auto;
+            text-align: center;
+            align-items: center;
+        
+        h3{
+            color:white;
+            font-size: 70px;
+            text-shadow: 2px 2px 50px black;
+        }
+        i{
+            font-size: 120px;
+            padding: 50px 35px;
+            color:white;
+            text-shadow: 2px 2px 50px black;
+        }
+        button{
+            margin:0px 25px;
+            display: block;
+            float: left;
+            width:350px;
+            height: 130px;
+            padding: 20px 40px;
+            cursor: pointer;
+            font-size:30px;
+            background-color: white;
+            // border:10px white solid;
+            border:none;
+            transition: 0.3s;
+            &:hover{
+                // border: 10px#E41106 solid;
+                background-color: #DEDEDE;
+                text-shadow: 10px 10px 50px white;
+                transform: translateY(-10px)
+            }
+        }
+    }
+    }
+}
+}
+section.forth{
+    display: block;
+    width:100%;
+    height: 15vh;
+    background-color: #454648;
+    h3{
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 15vh;
+        a{
+            color:white;
+            transition:0.3s;
+            &:hover{
+                color:#E41106;
+            transition:0.3s;
+            }
+        }
+    }
+    span{
+        padding: 0 20px;
+    }
+
+    }
+    body > section.kontakt > section > div > div a{
+        color:black;
+    }
